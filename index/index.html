@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link ref="stylesheet" href="../style/style.css">
+    <!-- <script  type="module" src="../data/data.js"></script> -->
+</head>
+<body>
+    <div class="">
+        <div class="bar">
+            <div class="name">
+
+            </div>
+            <div class="haeder">
+                <button onclick="addBook()">+New book</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="list-books">
+                <table>
+
+                </table>
+                <div class="guide">
+                    <div class="">
+                        <button>Back</button>
+                    </div>
+                    <div class="">
+
+                    </div>
+                    <div class="">
+                        <button>Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class="book-details">
+                <div class="book-name">
+
+                </div>
+                <div class="book-description">
+                    <img class="image-book">
+                    <div class="price-rate">
+                        <label style="display: block;" class="price">
+                            Price: 
+                            <span id="price">0</span>
+                        </label>
+                        <label style="display: block;" class="rate">
+                            Rate: 
+                            <div class="rate">
+                                <button onclick="decrement()">-</button>
+                                <input type="text" id="rateValue" value="0" readonly>
+                                <button onclick="increment()">+</button>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
