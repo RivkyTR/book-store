@@ -1,17 +1,17 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-.bar{
+.bar {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 15vh;
 }
 
-.name{
+.name {
     display: flex;
     background-color: lightgray;
     height: 60%;
@@ -20,7 +20,8 @@ body{
     padding-left: 5%;
     font-style: italic;
 }
-.haeder{
+
+.haeder {
     display: flex;
     background-color: black;
     height: 40%;
@@ -29,14 +30,14 @@ body{
     padding-left: 3%;
 }
 
-.haeder button{
+.haeder button {
     background-color: black;
     color: white;
     border: 0;
     padding: 6px 12px;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: row;
 
@@ -44,42 +45,59 @@ body{
     width: 100%;
 }
 
-.list-books{
+.list-books {
     display: flex;
     flex-direction: column;
     background-color: rgb(230, 219, 241);
-    justify-content:first baseline;
+    justify-content: first baseline;
     width: 75vw;
-    padding: 4%;
+    padding: 3%;
+    height: 85vh;
+    /* max-height: 85vh;
+    overflow-y: auto; */
 }
 
-#table{
-    display: flex;
+
+.table-container{
+    max-height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 4%;
+    display: flex; 
+    flex-direction: column;
+}
+
+
+.table {
     width: 90%;
+    margin: 0;
+    flex-grow: 1; 
+    height: 60vh;
 }
 
-td, th {
+td,
+th {
     border: 1px solid rgb(188, 186, 186);
-    text-align: left;
+    /* text-align: left; */
     padding: 1px;
     margin: 0;
     height: 3%;
     background-color: white;
-  }
- th{
+}
+
+th {
     background-color: gray;
- }
- td button{
+    top: 0; 
+    z-index: 1;
+}
+
+
+td button {
     background-color: white;
     color: black;
- }
+}
 
 
-
-
-
-
-.guide{
+.guide {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -87,14 +105,14 @@ td, th {
 
 }
 
-.guide button{
+.guide button {
     background-color: blueviolet;
     border: 0;
     padding: 4px 32px;
     color: white;
 }
 
-.book-details{
+.book-details {
     display: flex;
     flex-direction: column;
     padding-left: 1%;
@@ -102,7 +120,7 @@ td, th {
     width: 25vw;
 }
 
-.book-name{
+.book-name {
     background-color: gray;
     text-align: center;
     font-size: 24px;
@@ -110,7 +128,7 @@ td, th {
     align-content: center;
 }
 
-.book-description{
+.book-description {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -118,36 +136,101 @@ td, th {
     width: 100%;
 }
 
-.image-book{
-    width: 45%;
+.image-book {
+    width: 50%;
+    padding-right: 3%;
 }
 
-.price-rate{
+#image-book {
     width: 100%;
-    margin-left: 3%;
-}
-.rate{
-    background-color: azure;
 }
 
-.rate button{
+.price-rate {
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3%;
+    justify-content: center;
+    align-content: center;;
+    width: 100%;
+    text-align: center;
+}
+
+.rate-look button {
     background-color: blueviolet;
     border: 0;
     padding: 4px 12px;
-    justify-content: space-between;
-    width: 15%;
+    justify-content: center;
+    width: 25%;
     text-align: center;
     margin: 0;
+    align-content: center;
 }
 
-.rate span{
-    width: 70%;
-    background-color: grey;
-    padding: 4px 32px;
-    margin: 0;
+.rate-look{
+    background-color: lightgray;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-left: 2%;
 }
-
-
-.connectionWithUser{
+.connectionWithUser {
     display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 15%;
+    right: 35%;
+    width: 30vw;
+    /* height: 50%; */
+    border: 3px solid #73AD21;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.connectionWithUser form{
+    display: flex;
+    flex-direction: column;
+}
+.connectionWithUser button{
+    color: black;
+}
+
+.connectionWithUser input, textarea{
+    color: black;
+}
+.welcome{
+    margin-top: 25%;
+}
+@media only screen and (max-width: 1200px) {
+    .book-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    .image-book {
+        width: 100%;
+        padding-right: 0%;
+    }
+
+    .price-rate {
+        width: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }

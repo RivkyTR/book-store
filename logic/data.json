@@ -5,70 +5,80 @@
         "title": "The Great Adventure",
         "price": 12.99,
         "content": "Once upon a time in a land far away, there lived a group of villagers who sought adventure beyond their peaceful valley. Among them was a young boy named Finn, who longed to explore the uncharted lands beyond the mountains. One day, Finn discovered an ancient map hidden in the attic of his home, a map leading to a long-lost treasure. With a heart full of courage and a thirst for discovery, Finn embarked on a journey filled with dangers, mysterious creatures, and hidden secrets that would change his life forever. His quest would take him to the darkest forests, across treacherous rivers, and into the lairs of forgotten beasts, where he would learn the true meaning of bravery.",
-        "picture": "C:\\Users\\עתידה\\Desktop\\basmach\\lesson13.10\\pic.jpg"
+        "picture": "C:\\Users\\עתידה\\Desktop\\basmach\\lesson13.10\\pic.jpg",
+        "rate": 6
       },
       {
         "id": 2,
         "title": "Mystery of the Lost Island",
         "price": 9.99,
         "content": "Detective Eleanor Westwood is famous for solving the most perplexing cases, but when she receives an anonymous letter asking her to investigate a forgotten island, she is thrust into her most dangerous case yet. The island, shrouded in fog and legend, was once home to an advanced civilization that mysteriously disappeared centuries ago. As Eleanor steps foot on its eerie shores, she begins to uncover clues that point to a dark secret—one that could rewrite history. Battling the elements and cryptic puzzles, she must race against time to find the truth, all while avoiding those who would do anything to keep the island’s secrets buried forever.",
-        "picture": "https://example.com/covers/lost_island.jpg"
+        "picture": "https://example.com/covers/lost_island.jpg",
+        "rate": 6
       },
       {
         "id": 3,
         "title": "Journey to the Unknown",
         "price": 15.49,
         "content": "In the year 2050, a team of elite explorers is assembled for a mission that will take them beyond the known universe. Captain Avery Gray leads the crew aboard the starship Horizon as they venture into a distant galaxy, following a mysterious signal that defies all known laws of physics. What they discover is beyond anything they could have imagined—an alien civilization more advanced than humanity, but on the brink of destruction. As they navigate the complexities of this new world, the crew must make a choice: to help save the dying civilization or to return home and warn Earth of an impending threat that could destroy the entire galaxy.",
-        "picture": "https://example.com/covers/journey_unknown.jpg"
+        "picture": "https://example.com/covers/journey_unknown.jpg",
+        "rate": 6
       },
       {
         "id": 4,
         "title": "The Ancient Prophecy",
         "price": 10.75,
         "content": "In a world ruled by powerful sorcerers, a prophecy speaks of a chosen one who will rise to defeat the Dark King and restore peace to the realm. This prophecy has been passed down for generations, but many have begun to lose hope as the Dark King’s power grows stronger with each passing year. Aric, a simple farmer’s son, has never believed in the prophecy—until the day he discovers a hidden power within himself. Guided by an ancient order of mages, Aric must embark on a perilous journey to unlock his full potential and face the Dark King in a battle that will determine the fate of the world.",
-        "picture": "https://example.com/covers/ancient_prophecy.jpg"
+        "picture": "https://example.com/covers/ancient_prophecy.jpg",
+        "rate": 6
       },
       {
         "id": 5,
         "title": "Beyond the Stars",
         "price": 14.99,
         "content": "In the distant future, humanity has mastered space travel and established colonies on distant planets. But when a mysterious signal is detected coming from beyond the known universe, a team of scientists and astronauts is sent to investigate. What they find is a vast, ancient alien structure floating in the void—an enigma that defies explanation. As they explore its corridors, they begin to unravel its secrets, discovering technology that could change the fate of the human race. But they are not alone. An unseen force watches their every move, and the deeper they venture, the more they realize that some mysteries are best left unsolved.",
-        "picture": "https://example.com/covers/beyond_stars.jpg"
+        "picture": "https://example.com/covers/beyond_stars.jpg",
+        "rate": 6
       },
       {
         "id": 6,
         "title": "Echoes of the Past",
         "price": 11.95,
         "content": "Dr. Elizabeth Carter, a renowned archaeologist, stumbles upon an ancient artifact during a dig in Egypt. The artifact, covered in strange symbols, leads her to a forgotten temple hidden deep within the desert. As she deciphers the symbols, Elizabeth uncovers a message from a long-lost civilization—a message that warns of a catastrophic event that could reshape the world as we know it. Racing against time, she must piece together the clues and prevent the disaster, all while being hunted by a secret organization that seeks to use the knowledge for its own sinister purposes.",
-        "picture": "https://example.com/covers/echoes_past.jpg"
+        "picture": "https://example.com/covers/echoes_past.jpg",
+        "rate": 6
       },
       {
         "id": 7,
         "title": "The Final Frontier",
         "price": 16.25,
         "content": "The year is 2130, and Earth is dying. Overpopulation and environmental collapse have left humanity on the brink of extinction. In a last-ditch effort to save the species, a team of scientists and engineers embarks on a journey to colonize a distant, habitable planet. The starship Exodus, carrying the hopes of all mankind, sets off into the unknown. But the journey is fraught with peril—unexplained malfunctions, strange phenomena, and the looming threat of mutiny. As the crew struggles to survive, they begin to question not only their mission but the very nature of their existence in the vast, unforgiving cosmos.",
-        "picture": "https://example.com/covers/final_frontier.jpg"
+        "picture": "https://example.com/covers/final_frontier.jpg",
+        "rate": 6
       },
       {
         "id": 8,
         "title": "The Secret Garden",
         "price": 8.99,
         "content": "When young Mary Lennox is sent to live with her uncle in the English countryside, she is a lonely and spoiled child. But everything changes when she discovers a hidden, overgrown garden on the estate. As she tends to the garden, Mary uncovers its magical properties and begins to heal not only the land but also her own heart. Along the way, she befriends a local boy named Dickon and her sickly cousin Colin, and together they embark on a journey of self-discovery and renewal. The garden, once forgotten, becomes a place of hope, wonder, and transformation for them all.",
-        "picture": "https://example.com/covers/secret_garden.jpg"
+        "picture": "https://example.com/covers/secret_garden.jpg",
+        "rate": 6
       },
       {
         "id": 9,
         "title": "War of the Ages",
         "price": 18.50,
         "content": "In a land divided by war, two great empires clash in a battle for supremacy. On one side, the mighty Valoran Empire, led by the ruthless Emperor Draven, seeks to conquer all who stand in their way. On the other side, the free kingdoms of the North, united under the banner of King Rowan, fight for their survival. Amidst the chaos, a young warrior named Kael rises to prominence. With unparalleled skill in combat and a fierce determination to protect his people, Kael becomes a symbol of hope. But as the war rages on, he is forced to confront the darker side of conflict—the toll it takes on the innocent and the sacrifices that must be made for peace.",
-        "picture": "https://example.com/covers/war_ages.jpg"
+        "picture": "https://example.com/covers/war_ages.jpg",
+        "rate": 6
       },
       {
         "id": 10,
         "title": "Realm of Dragons",
         "price": 13.99,
         "content": "For centuries, dragons and humans have lived in an uneasy truce. The dragons, once rulers of the skies, now reside in hidden realms, while humans dominate the earth below. But when a rogue dragon attacks a human city, the fragile peace is shattered. A young dragon rider named Lyra is thrust into the heart of the conflict. With her dragon companion, Aerin, she must navigate the complex politics of both species and find a way to prevent an all-out war. As tensions rise, Lyra discovers an ancient prophecy that foretells the return of a dragon king who will either unite the two races or bring about their destruction.",
-        "picture": "https://example.com/covers/realm_dragons.jpg"
+        "picture": "https://example.com/covers/realm_dragons.jpg",
+        "rate": 6
       }
     ]
   }

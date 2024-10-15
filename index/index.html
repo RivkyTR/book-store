@@ -8,68 +8,73 @@
     <link rel=stylesheet href="../style/style.css">
     <script type="module" src="../logic/logic.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="">
+    <div id="central">
         <div class="bar">
             <div class="name">
                 Bookshop ERP
             </div>
             <div class="haeder">
-                <button onclick="post()">+New book</button>
+                <button id="new-book">+New book</button>
             </div>
         </div>
         <div class="main">
             <div class="list-books">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">id</th>
-                            <th scope="col" data-sortable="true" id="title-header">Title</th>
-                            <th scope="col" id="price-header">Price</th>
-                            <th scope="col">Action</th>
-                            <th scope="col"></th>
-                            <th scope="col"></th>
-                        </tr>
-                    </thead>
-                    <tbody id="elements">
-
-                    </tbody>
-                </table>
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">id</th>
+                                <th scope="col" data-sortable="true" id="title-header">▼ Title</th>
+                                <th scope="col" id="price-header">▼ Price</th>
+                                <th scope="col">Action</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="elements">
+                        </tbody>
+                    </table>
+                </div>
                 <div class="guide">
                     <div class="">
                         <button>Back</button>
                     </div>
                     <div class="">
-
                     </div>
                     <div class="">
                         <button>Next</button>
                     </div>
                 </div>
             </div>
-            <div class="book-details">
+            <div id="book-details" class="book-details" book-id="">
                 <div id="book-name" class="book-name">
                     name book
                 </div>
                 <div class="book-description">
-                    <img src="" id="image-book" class="image-book">
+                    <div class="image-book">
+                        <img src="" id="image-book">
+                    </div>
+
                     <div class="price-rate">
                         <label style="display: block;" class="price">
                             Price:
                             <span id="price">0</span>
                         </label>
-                        <span>Rate: </span>
-                        <div class="rate" style="display: block;">
+                        <div class="rate">
 
-                            <button onclick="decrement()">-</button>
-                            <span id="rateValue">0</span>
-                            <button onclick="increment()">+</button>
+                            Rate:
+                            <div class="rate-look">
+                                <button id="decrement">-</button>
+                                <span class="rateValue">0</span>
+                                <button id="increment">+</button>
+                            </div>
                         </div>
-                        </label>
                     </div>
                 </div>
 
